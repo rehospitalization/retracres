@@ -1,0 +1,48 @@
+# RetracRes
+
+# Build artifacts
+bin/
+obj/
+*.exe
+*.o
+*.obj
+
+# Dependency / precompiled
+*.d
+*.gch
+*.pch
+
+# Local / temp / agent noise
+*.log
+*.tmp
+*_out.txt
+*_err.txt
+build_*.txt
+a_*.txt
+gpp_*.txt
+make_out.txt
+compile_*.txt
+pre_err.txt
+fonts_err2.txt
+win_err.txt
+t.cpp
+t.exe
+t_hello.cpp
+t_hello.exe
+fix_ui_refs.py
+build_test.sh
+build_verify.txt
+
+# Design source (keep exported icons in assets/)
+*.psd
+
+# IDE / OS
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+*.user
+*.suo
+*.sdf
+*.VC.db
+ipch/
